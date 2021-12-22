@@ -1,0 +1,47 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../assets/pexels-pixabay-40142.jpg");
+  display: flex;
+  justify-content: center;
+}
+.inputsContiner {
+  background-color: rgba(255, 255, 255, 0.5);
+  /* border: 2px red solid; */
+  width: 40vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+}
+.inputNewTask {
+  background-color: #8e4e35;
+  color: white;
+  border: 3px white inset;
+  outline: none;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 10vh;
+  width: 20vw;
+}
+::placeholder {
+  color: white;
+}
+.submitButton {
+  cursor: pointer;
+  margin-top: 40vh;
+  background-color: #7c4935;
+  color: white;
+  border: 3px white solid;
+  width: 6vw;
+  height: 4vh;
+  font-weight: bold;
+  font-size: 16px;
+}
+.submitButton:hover {
+  background-color: #aa6347;
+}
